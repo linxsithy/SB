@@ -1,6 +1,6 @@
 return function(createButtonFunc)
     
-    createButtonFunc("Random Name", function()
+    createButtonFunc("Random Nametag", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/linxsithy/SB/refs/heads/main/RandomTag"))()
     end)
 
