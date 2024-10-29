@@ -1,0 +1,14 @@
+return function(createButtonFunc)
+    
+    createButtonFunc("Random Name", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/linxsithy/SB/refs/heads/main/RandomTag"))()
+    end)
+
+    createButtonFunc("Button 2", function()
+        print("Button 2 clicked!")
+    end)
+
+    createButtonFunc("Button 3", function()
+        print("Button 3 clicked!")
+    end)  
+end
