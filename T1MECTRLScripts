@@ -4,8 +4,8 @@ return function(createButtonFunc)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/linxsithy/SB/refs/heads/main/RandomTag"))()
     end)
 
-    createButtonFunc("Button 2", function()
-        print("Button 2 clicked!")
+    createButtonFunc("Anti-Lag for SB", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/linxsithy/SB/refs/heads/main/Anti-lag%20By%20Cik%C3%A9d.txt"))()
     end)
 
     createButtonFunc("Button 3", function()
